@@ -65,3 +65,7 @@ if transacao['valor'] > 10000 or transacao["hora"] < 9 or transacao["hora"] > 18
     print("Transação suspeita")
 else:
     print("Transação normal")
+
+
+for i in range(1,5):
+    print(i)
